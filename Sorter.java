@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class Sorter {
     public static void selectionSort(int[] arr){  
         for (int i = 0; i < arr.length - 1; i++)  
@@ -14,9 +13,6 @@ public class Sorter {
             arr[i] = smallerNumber;  
         }  
     }  
-}
-=======
-public class Sorter{
     public static void insertionSort(int array[]) {  
         int n = array.length;  
         for (int j = 1; j < n; j++) {  
@@ -28,6 +24,6 @@ public class Sorter{
             }  
             array[i+1] = key;  
         }  
-    }  
+    } 
 }
->>>>>>> 0abea534aea467205885b5f049d63b7550b540dc
+
